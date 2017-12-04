@@ -1,0 +1,2 @@
+make a button to export the set of 4 as an activeitem, and make that activeitem a one-click set-it or something
+maybe just make a list of stored pressets aaa

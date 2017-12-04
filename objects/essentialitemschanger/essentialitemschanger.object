@@ -1,0 +1,59 @@
+{
+  "objectName" : "essentialitemschanger",
+  "colonyTags" : ["misc"],
+  "rarity" : "Common",
+  "category" : "storage",
+  "price" : 100,
+  "description" : "Change essential items.",
+  "shortdescription" : "Essential Items Changer",
+  "race" : "generic",
+  "printable" : false,
+
+  "apexDescription" : "A captured creature can be tethered to this spot.",
+  "avianDescription" : "A handy post that a pet to be tethered to.",
+  "floranDescription" : "Creaturess attached to post ssstay here.",
+  "glitchDescription" : "Satisfied. A captured creature placed in this device will stay nearby.",
+  "humanDescription" : "A tether for a captured creature.",
+  "hylotlDescription" : "Once placed in this device, a captured creature will not wander far.",
+  "novakidDescription" : "A handy tether post for keepin' captured creatures from wanderin'.",
+
+  "interactAction" : "ScriptPane",
+  "interactData" : "/interface/essentialitemschanger/essentialitemschanger.config",
+
+  "inventoryIcon" : "essentialitemschangericon.png",
+
+//  "animation" : "/objects/essentialitemschanger/essentialitemschanger.animation",
+//  "animationParts" : {
+//    "tether" : "essentialitemschanger.png",
+//    "tetherlit" : "essentialitemschangerlit.png"
+//  },
+  "animationPosition" : [-6, 0],
+
+  "orientations" : [
+    {
+      "imageLayers" : [ { "image" : "essentialitemschanger.png:off.<frame>", "fullbright" : true }, { "image" : "essentialitemschangerlit.png:off.<frame>" } ],
+      "imagePosition" : [-6, 0],
+
+      "direction" : "left",
+      "flipImages" : true,
+
+      "frames" : 1,
+      "animationCycle" : 1.2,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    },
+    {
+      "imageLayers" : [ { "image" : "essentialitemschanger.png:off.<frame>", "fullbright" : true }, { "image" : "essentialitemschangerlit.png:off.<frame>" } ],
+      "imagePosition" : [-6, 0],
+
+      "direction" : "right",
+      
+      "frames" : 1,
+      "animationCycle" : 1.2,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    }
+  ]
+}
